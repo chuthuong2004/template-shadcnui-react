@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { ModeToggle } from "@/components/mode-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import { MainNav } from "@/layouts/components/MainNav";
 import { cn } from "@/lib/utils";
@@ -32,6 +33,7 @@ const Header: React.FC = () => {
                 <span className="sr-only">Twitter</span>
               </div>
             </a>
+            <ModeToggle />
             {/* <MobileToggle />
             <MobileNav /> */}
           </nav>

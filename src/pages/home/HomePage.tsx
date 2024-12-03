@@ -35,8 +35,8 @@ import { ToastDemo } from "@/pages/home/demo/ToastDemo";
 
 const HomePage = () => {
   return (
-    <div className="w-full">
-      <h1 className="text-4xl">Home Page</h1>
+    <div className="w-full mt-[50px]">
+      <h1 className="text-4xl text-destructive font-bold capitalize italic">home page</h1>
       <p className="text-lg">This is the home page.</p>
       <div className="flex flex-col gap-4">
         <div className="flex">
